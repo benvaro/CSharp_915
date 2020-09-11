@@ -11,7 +11,7 @@ namespace _10_Class
         private string name;   // default? null
         private int age;   // 0
         private DateTime date;   // 01.01.0001 00:00
-        public string Group { get; set; } // auto property
+        public string Group { get; set; } // auto property (автоматична властивість, використовуємо, якщо не треба валідація)
         public float AvgMark { get; private set; }
 
         public Student()
