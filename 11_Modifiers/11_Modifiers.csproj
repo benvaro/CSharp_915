@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6F6539B-465C-49F8-ABD1-8C7C21E65F5B}</ProjectGuid>
+    <ProjectGuid>{C75BB046-0723-49F0-B78F-5FD4D0E4AFB0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_10_Class</RootNamespace>
-    <AssemblyName>10_Class</AssemblyName>
+    <RootNamespace>_11_Modifiers</RootNamespace>
+    <AssemblyName>11_Modifiers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="StudentLibrary">
+      <HintPath>..\StudentLibrary\bin\Debug\StudentLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,11 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Group.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Classes\Student.cs" />
-    <Compile Include="StudentInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Groups = _10_Class.Classes;
 
 namespace _10_Class
 {
@@ -81,6 +83,18 @@ namespace _10_Class
             st4.Group = "Pr1";
             st4.Print();
             Console.WriteLine("Group:" + st4.Group);
+
+            Console.WriteLine("ID: {0}", Student.Id);
+            Student.ShowId();
+
+            StudentHelper.FileHelper();
+
+            Console.WriteLine(st4);
+
+            Groups.Group g = new Groups.Group();
+            g.Students.Add(st4);
+            g.Students.Add(st3);
+            Console.WriteLine(g);
         }
     }
 }
