@@ -38,7 +38,11 @@ namespace _11_Modifiers
             Console.WriteLine(newSt as Student); // Приведення до типу
             Console.WriteLine(res);
             Console.WriteLine(res2);
-
+            string s = "lassen";
+            string s1 = "la\u00dfen";
+            Console.WriteLine(
+            s.CompareTo(s1) == 0 ?
+             "equals" : "not equals");
             Console.WriteLine(dateTime);
         }
     }
