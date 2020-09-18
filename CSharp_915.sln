@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_re-throw", "15_re-throw\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_InnerException", "16_InnerException\16_InnerException.csproj", "{12D9D1A6-CE6B-4543-98EC-64ABD891062E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_Equals", "17_Equals\17_Equals.csproj", "{EFD00AA6-1EEF-4377-9D21-35345447B586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_OverloadOperators", "18_OverloadOperators\18_OverloadOperators.csproj", "{7C4F7C9E-6EBC-4AE6-86BE-23C780763672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +117,14 @@ Global
 		{12D9D1A6-CE6B-4543-98EC-64ABD891062E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D9D1A6-CE6B-4543-98EC-64ABD891062E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D9D1A6-CE6B-4543-98EC-64ABD891062E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD00AA6-1EEF-4377-9D21-35345447B586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD00AA6-1EEF-4377-9D21-35345447B586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD00AA6-1EEF-4377-9D21-35345447B586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD00AA6-1EEF-4377-9D21-35345447B586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4F7C9E-6EBC-4AE6-86BE-23C780763672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4F7C9E-6EBC-4AE6-86BE-23C780763672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4F7C9E-6EBC-4AE6-86BE-23C780763672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4F7C9E-6EBC-4AE6-86BE-23C780763672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
