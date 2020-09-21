@@ -151,12 +151,12 @@
         }
         public override int GetHashCode()
         {
-            return num ^ denom; // ?   101 ^ 010 = 111  
+            return Num ^ Denom; // ?   101 ^ 010 = 111  
         }
 
         public override string ToString()
         {
-            return $"{num}/{denom}";
+            return $"{Num}/{Denom}";
         }
     }
 }
