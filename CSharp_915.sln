@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_ExtMethods", "20_ExtMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_abstract", "21_abstract\21_abstract.csproj", "{61DF2F5F-1C95-41FF-ACDD-09A3BA6FE091}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Interfaces", "21_Interfaces\21_Interfaces.csproj", "{7F744C0E-976B-4269-86E5-6F9A932E3329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{61DF2F5F-1C95-41FF-ACDD-09A3BA6FE091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61DF2F5F-1C95-41FF-ACDD-09A3BA6FE091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61DF2F5F-1C95-41FF-ACDD-09A3BA6FE091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F744C0E-976B-4269-86E5-6F9A932E3329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F744C0E-976B-4269-86E5-6F9A932E3329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F744C0E-976B-4269-86E5-6F9A932E3329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F744C0E-976B-4269-86E5-6F9A932E3329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
