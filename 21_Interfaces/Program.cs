@@ -72,9 +72,6 @@ namespace _21_Interfaces
             game = games.Where(x => x.ToUpper().StartsWith("F") || x.ToUpper().EndsWith("S")).OrderByDescending(x => x);
 
             Print(game);
-
-
-
         }
 
         private static void Print(IEnumerable<string> game)
