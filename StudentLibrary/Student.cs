@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StudentLibrary
 {
-    public class Student
+    public class Student: ICloneable
     {
         private string name;   // default? null
         private int age;   // 0
@@ -15,6 +15,8 @@ namespace StudentLibrary
         public string Group { get; set; } // auto property (автоматична властивість, використовуємо, якщо не треба валідація)
         public float AvgMark { get; private set; }
         public static int Id { get; set; }
+
+        public Group Groups { get; set; }
         #region ctors
         static Student()
         {
@@ -91,6 +93,11 @@ namespace StudentLibrary
         public override string ToString()
         {
             return $"name: {Name} ==> age: {Age} ==> group: {Group}";
+        }
+
+        public object Clone()
+        {
+            return this.MemberwiseClone();
         }
     }
 
