@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_Events", "29_Events\29_E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_EventHandler", "30_EventHandler\30_EventHandler.csproj", "{281FCA5A-C8F4-423D-9EF0-1307CBE4F1C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonsDemo", "ButtonsDemo\ButtonsDemo.csproj", "{01A6D12C-7B5B-49BC-9C01-854AD1512817}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +207,10 @@ Global
 		{281FCA5A-C8F4-423D-9EF0-1307CBE4F1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{281FCA5A-C8F4-423D-9EF0-1307CBE4F1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{281FCA5A-C8F4-423D-9EF0-1307CBE4F1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
