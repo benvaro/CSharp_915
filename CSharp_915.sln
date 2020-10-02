@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_EventHandler", "30_Event
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonsDemo", "ButtonsDemo\ButtonsDemo.csproj", "{01A6D12C-7B5B-49BC-9C01-854AD1512817}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{DF843DF8-BBF4-43F6-95BB-50E9AA05DC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{09C25425-6220-43A4-B0BB-173C6D3089C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +215,14 @@ Global
 		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A6D12C-7B5B-49BC-9C01-854AD1512817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF843DF8-BBF4-43F6-95BB-50E9AA05DC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF843DF8-BBF4-43F6-95BB-50E9AA05DC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF843DF8-BBF4-43F6-95BB-50E9AA05DC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF843DF8-BBF4-43F6-95BB-50E9AA05DC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C25425-6220-43A4-B0BB-173C6D3089C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C25425-6220-43A4-B0BB-173C6D3089C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C25425-6220-43A4-B0BB-173C6D3089C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C25425-6220-43A4-B0BB-173C6D3089C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
