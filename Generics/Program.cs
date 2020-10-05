@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Generics
 {
     class Program
     {
-        class User<T>: IComparable<User<T>> where T: class, IComparable // struct, new(), BaseClass
+        class User<T> : IComparable<User<T>> where T : class, IComparable // struct, new(), BaseClass
         {
             public string Login { get; set; }  // null
             //int - 0
@@ -42,7 +39,7 @@ namespace Generics
             Print(users.ToArray());
         }
 
-        private static void Sort<T>(T [] list) where T: IComparable<T>
+        private static void Sort<T>(T[] list) where T : IComparable<T>
         {
             Array.Sort(list);
         }
