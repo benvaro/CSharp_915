@@ -99,6 +99,7 @@ namespace StudentLibrary
         {
             return this.MemberwiseClone();
         }
+        private void Hello() { }
     }
 
    public static class StudentHelper

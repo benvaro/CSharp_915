@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_Json", "39_Json\39_Json.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonExample", "JsonExample\JsonExample.csproj", "{3B6BA768-0C55-4908-87C5-426C2E3041B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLR_Reflection", "DLR_Reflection\DLR_Reflection.csproj", "{865B8D8E-4DB4-44C8-8F6A-E053116B837F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{3B6BA768-0C55-4908-87C5-426C2E3041B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B6BA768-0C55-4908-87C5-426C2E3041B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B6BA768-0C55-4908-87C5-426C2E3041B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865B8D8E-4DB4-44C8-8F6A-E053116B837F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865B8D8E-4DB4-44C8-8F6A-E053116B837F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865B8D8E-4DB4-44C8-8F6A-E053116B837F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865B8D8E-4DB4-44C8-8F6A-E053116B837F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
